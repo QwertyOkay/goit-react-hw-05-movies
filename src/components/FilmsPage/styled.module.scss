@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  padding: 10px;
+}
+
+.btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  padding: 5px 10px;
+
+  background-color: transparent;
+  color: rgb(139, 139, 139);
+
+  border: 2px solid rgb(139, 139, 139);
+  border-radius: 2px;
+
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+  cursor: pointer;
+}
+
+.h3 {
+  text-align: center;
+  color: rgb(139, 139, 139);
+}
+
+.link_list {
+  color: rgb(139, 139, 139);
+  padding: 0px;
+
+  & li {
+    text-align: center;
+
+    &:first-child {
+      margin-bottom: 10px;
+    }
+  }
+}
